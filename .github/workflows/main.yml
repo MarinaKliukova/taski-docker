@@ -80,6 +80,5 @@ jobs:
           # находится в ./backend/
           context: ./backend/
           # Параметр push: true указывает, что образ нужно не только собрать,
-          # но и отправить на DockerHub
           push: true
           tags: ваш-логин-на-docker-hub/taski_backend:latest
