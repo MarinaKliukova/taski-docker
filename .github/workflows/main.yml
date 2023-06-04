@@ -79,6 +79,5 @@ jobs:
           # Параметр context: ./backend/ указывает, что нужный Dockerfile 
           # находится в ./backend/
           context: ./backend/
-          # Параметр push: true указывает, что образ нужно не только собрать,
           push: true
-          tags: ваш-логин-на-docker-hub/taski_backend:latest
+          tags: marinakliukova/taski_backend:latest
